@@ -18,15 +18,12 @@ public class Application {
 
 //        System.out.println("member = " + member);    확인
 
-        // 실행할 요소
+        // 실행할 요소들
         System.out.println(member.getPersonalAccount());
         System.out.println(member.getPersonalAccount().deposit(10000));     // 만원 입금!
         System.out.println(member.getPersonalAccount().getBalance());             // 잔액 확인
+        System.out.println(member.getPersonalAccount().withDraw(5000));         //5천원 출금
 
         System.out.println(member.getPersonalAccount().withDraw(20000));   //오버되는 금액 출금 시도시, 잔액부족으로 잔액확인 출력
-
-
-
     }
-
 }

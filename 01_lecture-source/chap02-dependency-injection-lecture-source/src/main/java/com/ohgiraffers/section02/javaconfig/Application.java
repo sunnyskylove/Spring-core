@@ -14,9 +14,10 @@ public class Application {
 
         MemberDTO member = context.getBean(MemberDTO.class);
 
-//        System.out.println("member = " + member);
+//        System.out.println("member = " + member);    확인
 
-        System.out.println(member.getPersonalAccount());
+        // 계산 요소
+        System.out.println(member.getPersonalAccount());        // 정보 출력!
         System.out.println(member.getPersonalAccount().deposit(10000));
         System.out.println(member.getPersonalAccount().getBalance());
         System.out.println(member.getPersonalAccount().withDraw(5000));
