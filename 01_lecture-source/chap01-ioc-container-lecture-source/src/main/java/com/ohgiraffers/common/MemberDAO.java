@@ -21,6 +21,19 @@ public class MemberDAO {
     public MemberDTO findMemberBySequence(int sequence) {
 
         return memberMap.get(sequence);
+
+    }
+
+    public boolean save(MemberDTO member) {
+
+        int before = memberMap.size();
+
+        memberMap.put(member.getSequence(), member);
+
+        int after = memberMap.size();
+
+        return after > before? true : false;
+
     }
 
 }
