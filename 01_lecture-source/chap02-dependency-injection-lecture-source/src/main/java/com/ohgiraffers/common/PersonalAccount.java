@@ -3,7 +3,7 @@ package com.ohgiraffers.common;
 import lombok.ToString;
 
 @ToString              // annotation 달아주기
-public class PersonalAccount implements Account{              // 구현 강제화된 메소드 소환~~(3개 다)
+public class PersonalAccount implements Account{    // 구현 강제화된 메소드 소환~~(3개 다)
 
     private final int bankCode; // 은행코드
     private final String accNo; // 계좌번호
