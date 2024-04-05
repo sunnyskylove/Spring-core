@@ -1,5 +1,6 @@
-package com.ohgiraffers.section01.scope.subsection01.singleton;
+package com.ohgiraffers.section01.scope.subsection02.prototype;
 
+import com.ohgiraffers.common.Beverage;
 import com.ohgiraffers.common.Bread;
 import com.ohgiraffers.common.Product;
 import com.ohgiraffers.common.ShoppingCart;
@@ -19,7 +20,7 @@ public class ContextConfiguration {
 
     @Bean
     public Product milk() {
-        return new Berverage("초코우유", 2000, 500);
+        return new Beverage("초코우유", 2000, 500);
     }
 
     @Bean
@@ -35,7 +36,7 @@ public class ContextConfiguration {
     /* 참고. prototype : getBean() 시에 매번 새로운 인스턴스를 생성하게 해준다. */
     @Bean
     @Scope("prototype")             // prototype 이라는 문자열 전달하기
-    public Product cart() {
+    public ShoppingCart cart() {
         return new ShoppingCart();
 
 

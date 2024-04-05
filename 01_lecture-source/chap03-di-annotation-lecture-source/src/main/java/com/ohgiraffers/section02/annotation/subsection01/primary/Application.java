@@ -1,6 +1,6 @@
 package com.ohgiraffers.section02.annotation.subsection01.primary;
 
-import com.ohgiraffers.section02.annotation.subsection03.collection.AnimalService;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
