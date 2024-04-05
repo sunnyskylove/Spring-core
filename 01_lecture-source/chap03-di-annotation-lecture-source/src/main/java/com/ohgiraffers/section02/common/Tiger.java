@@ -1,4 +1,4 @@
-package com.ohgiraffers.section02.annotation.section02.common;
+package com.ohgiraffers.section02.common;
 
 import org.springframework.stereotype.Component;
 
