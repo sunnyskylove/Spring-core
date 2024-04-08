@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Bread extends Product {
 
-    private Date bakedDate;  // 만든 시간
+    private Date bakedDate;  // ?? ??
 
     public Bread(String name, int price, Date bakedDate) {
         super(name, price);

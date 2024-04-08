@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a4d7c14-a724-444f-b444-da2289c3eff3" name="Changes" comment="" />
+    <list default="true" id="7a4d7c14-a724-444f-b444-da2289c3eff3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_lecture-source/chap04-bean-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01_lecture-source/chap04-bean-lecture-source/.idea/gradle.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ec85DOyM0RsQxRbL89lfbzbeBy" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -18,8 +24,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Lecture/09_spring-core",
+    "last_opened_file_path": "C:/Lecture/09_spring-core/01_lecture-source/chap04-bean-lecture-source",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -27,7 +34,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-temurin-17.0.10-4caba194b151-b3785831" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -40,6 +48,8 @@
       <option name="presentableId" value="Default" />
       <updated>1712192320918</updated>
       <workItem from="1712192321982" duration="62000" />
+      <workItem from="1712539130874" duration="145000" />
+      <workItem from="1712539284166" duration="62000" />
     </task>
     <servers />
   </component>
